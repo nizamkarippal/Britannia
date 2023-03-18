@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head{
+   display: flex;
+   justify-content: left;
+   height: 50px;
+   top: 0;
+   right: 0;
+   left: 0;
+   position: fixed;
+z-index: 999;
+   
+}
+.left{
+    background-color:rgb(91, 196, 241);
+width: 35%;
+}
+.right{
+    background-color: rgb(235, 28, 35);
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 100px;
+    list-style: none;
+    border-bottom: 2px solid rgb(83, 128, 15);
+    cursor: pointer;
+    /* gap: -10px; */
+
+}
+li img{
+    height: 17px;
+    width: 20px;
+    
+}
+li{
+ font-family: "dinnexttpro-regular" ; 
+ font-size: 14px; 
+ color: white;
+ transition: hover 0.15s; 
+ padding: 15.5px;
+}
+li:hover{
+    background-color: brown;
+}
+.logo-img img{
+    position:absolute ;
+    top: -27px;
+    left: 270px;
+    height: 100px;
+    cursor: pointer;
+
+}
+
+/* head close */
+
+.info-img{
+    height: 1vh;
+    width: 100;
+    
+}
+.info-img img{
+    width: 100%;
+}
+.infosec2{
+    margin-top: 700px;
+    display: flex;
+    justify-content:center ;
+    
+
+}
+.img1{
+    width: 350px;
+    height: auto;
+    margin: 20px;
+}
+
+.foot-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px 160px;
+    padding-top: 20px;
+}
+footer{
+    background-color: #00993f;
+}
+footer h5{
+    color: white;
+}
+footer .foot p{
+    font-size: 12px;
+    color: #b8da8a;
+}
+footer .foot p:hover{
+    color: white;
+}
+footer .foot-icons i{
+    font-size: 33px;
+    margin: 15px 10px;
+    color: white;
+}
+footer .foot-icons i:hover{
+    color: black;
+}
+.foot-wrapper-2{
+    text-align: right;
+}
+.foot-wrapper-2 p{
+    font-size: 15px;
+    color: white;
+    margin-right: 150px;
+}
+
+    
